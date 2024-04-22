@@ -1,5 +1,5 @@
-uint8_t rs485TxPin = 4;
-uint8_t rs485RxPin = 5;
+uint8_t rs232TxPin = 4;
+uint8_t rs232RxPin = 5;
 void setup() {
   Serial.begin(115200);
   Serial3.begin(115200, SERIAL_8N1, rs232RxPin, rs232TxPin);
